@@ -7,6 +7,8 @@
     <description>Un plugin para evitar que el dispositivo entre en suspensión</description>
     <license>MIT</license>
     <keywords>cordova, plugin, nosleep</keywords>
+	<repo>https://github.com/lupuscar/cordova-plugin-nosleep.git</repo>
+	<issue>https://github.com/lupuscar/cordova-plugin-nosleep/issues</issue>
 
     <!-- Plataformas soportadas -->
     <platform name="android">
@@ -17,11 +19,11 @@
 
         <config-file target="config.xml" parent="/*">
             <feature name="NoSleepPlugin">
-                <param name="android-package" value="com.ejemplo.nosleep.NoSleepPlugin" />
+                <param name="android-package" value="com.z2informatica.nosleep.NoSleepPlugin" />
             </feature>
         </config-file>
         
-        <source-file src="src/android/NoSleepPlugin.java" target-dir="src/com/ejemplo/nosleep" />
+        <source-file src="src/android/NoSleepPlugin.java" target-dir="src/com/z2informatica/nosleep" />
     </platform>
 
     <!-- Archivos de JavaScript -->
