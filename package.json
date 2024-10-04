@@ -2,13 +2,12 @@
   "name": "cordova-plugin-nosleep",
   "version": "1.0.0",
   "description": "Plugin para evitar que el dispositivo entre en suspensión",
-  "main": "NoSleepPlugin.js",
-    "scripts": {
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lupuscar/cordova-plugin-nosleep.git"
+    "url": "git+https://github.com/lupuscar/cordova-plugin-nosleep.git"
   },
   "keywords": [
     "cordova",
@@ -18,7 +17,7 @@
   "author": "Carlos U.",
   "license": "MIT",
   "bugs": {
-	"url": "https://github.com/lupuscar/cordova-plugin-nosleep/issues"
+    "url": "https://github.com/lupuscar/cordova-plugin-nosleep/issues"
   },
   "homepage": "https://github.com/lupuscar/cordova-plugin-nosleep.git#readme",
   "cordova": {

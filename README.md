@@ -2,7 +2,7 @@
 Un plugin para evitar que el dispositivo entre en suspensión.
 ## Instalación:
 ```bash
-cordova plugin add git+https://github.com/lupuscar/cordova-plugin-nosleep.git
+cordova plugin add cordova-plugin-nosleep
 ```
 ## Eliminación:
 ```bash
