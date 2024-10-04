@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="cordova-plugin-nosleep"
+    version="1.0.0">
+    
+    <name>NoSleepPlugin</name>
+    <description>Un plugin para evitar que el dispositivo entre en suspensión</description>
+    <license>MIT</license>
+    <keywords>cordova, plugin, nosleep</keywords>
+
+    <!-- Plataformas soportadas -->
+    <platform name="android">
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <!-- Solicitar el permiso WAKE_LOCK para usar WakeLock -->
+            <uses-permission android:name="android.permission.WAKE_LOCK" />
+        </config-file>
+
+        <config-file target="config.xml" parent="/*">
+            <feature name="NoSleepPlugin">
+                <param name="android-package" value="com.ejemplo.nosleep.NoSleepPlugin" />
+            </feature>
+        </config-file>
+        
+        <source-file src="src/android/NoSleepPlugin.java" target-dir="src/com/ejemplo/nosleep" />
+    </platform>
+
+    <!-- Archivos de JavaScript -->
+    <js-module src="www/NoSleepPlugin.js" name="NoSleepPlugin">
+        <clobbers target="NoSleepPlugin" />
+    </js-module>
+</plugin>
