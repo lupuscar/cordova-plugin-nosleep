@@ -9,6 +9,7 @@
     <keywords>cordova, plugin, nosleep</keywords>
 	<repo>https://github.com/lupuscar/cordova-plugin-nosleep.git</repo>
 	<issue>https://github.com/lupuscar/cordova-plugin-nosleep/issues</issue>
+	
 
     <!-- Plataformas soportadas -->
     <platform name="android">
