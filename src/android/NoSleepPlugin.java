@@ -1,4 +1,4 @@
-package com.ejemplo.nosleep;
+package com.z2informatica.nosleep;
 
 import android.content.Context;
 import android.os.PowerManager;
