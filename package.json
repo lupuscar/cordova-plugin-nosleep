@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-nosleep",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Plugin para evitar que el dispositivo entre en suspensión",
   "main": "www/NoSleepPlugin.js",
   "repository": {
